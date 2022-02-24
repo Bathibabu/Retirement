@@ -24,6 +24,7 @@ class ViewController: UIViewController {
             self.present(alert, animated: true, completion: nil)
         }
         print("Welcome")
+        print("feature-1")
         Analytics.trackEvent("navigated_to_calculator")
     }
     
