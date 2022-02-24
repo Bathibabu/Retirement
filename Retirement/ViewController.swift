@@ -23,7 +23,7 @@ class ViewController: UIViewController {
             alert.addAction(UIAlertAction(title: "It's cool", style: .default, handler: nil))
             self.present(alert, animated: true, completion: nil)
         }
-        
+        print("Welcome")
         Analytics.trackEvent("navigated_to_calculator")
     }
     
